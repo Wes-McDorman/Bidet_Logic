@@ -2,9 +2,16 @@ package toilet_Logic;
 
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("Toilet Armed");
+		
 		WaterSquirt bidet = new WaterSquirt(); //instantiate WaterSquirt class
-		bidet.isSquirting();
+		System.out.println("Bidet Armed");
+		bidet.isSquirting(); //Say if the water jet is off
+		Voice voice = new Voice();
+		System.out.println("Voice Armed");
+		voice.getAngry();
+		voice.ending();
+		
+		
 		
 		
 	}
